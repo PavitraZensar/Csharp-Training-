@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Codebase_test1
 {
-    internal class Program
-    {`
+   
+    public class TicketsException : Exception
+    {
+        public TicketsException(string message) : base(message)
+        {
+        }
     public class passenger
     {
        string name;
@@ -36,7 +40,7 @@ namespace Codebase_test1
             }
             catch (Exception)
             {
-                Console.WriteLine("Enter number of tickets in number not in words inputmissmatch exception");
+                Console.WriteLine("inputmissmatch exception");
             }
 
 
