@@ -18,9 +18,9 @@ namespace Codebase_test1
             this.name=name;
             this.Dateoftravel=dateoftravel;
             this.age=age;
-        public void TicketBooking(int tickets)
+        public void TicketBooking(int no_of_tickets)
         {
-            no_of_tickets.Tickets = tickets;   
+             
             try
             {
 
@@ -44,11 +44,11 @@ namespace Codebase_test1
         }
         static void Main(String[] args)
         {
+            int no_of_tickets;
+            no_tickets = Convert.ToInt32(Console.Read());
+            Console.WriteLine(no_of_tickets);
             passenger passenger = new passenger("Seeta", 21);
-            Console.WriteLine("Enter the number of tuckets to be booked");
-            passenger.TicketBooking(int.Parse(Console.ReadLine());
-            Console.ReadKey();
-
+            pass.TicketBooking(no_of_tickets);
         }
     }
 }
