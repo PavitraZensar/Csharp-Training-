@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Threadstart handson")]
+[assembly: AssemblyTitle("Codebase test1")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Threadstart handson")]
+[assembly: AssemblyProduct("Codebase test1")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("293d358e-400a-4dd9-931f-b05e7de61ebe")]
+[assembly: Guid("027e1edd-19d4-41aa-9c15-ada2e92617cf")]
 
 // Version information for an assembly consists of the following four values:
 //

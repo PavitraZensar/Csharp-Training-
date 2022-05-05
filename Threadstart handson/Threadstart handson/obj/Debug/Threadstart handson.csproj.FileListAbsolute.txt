@@ -1,8 +1,0 @@
-C:\Zensar\Dotnet Training\C sharp\Assignments\Threadstart handson\Threadstart handson\obj\Debug\Threadstart handson.csproj.AssemblyReference.cache
-C:\Zensar\Dotnet Training\C sharp\Assignments\Threadstart handson\Threadstart handson\obj\Debug\Threadstart handson.csproj.SuggestedBindingRedirects.cache
-C:\Zensar\Dotnet Training\C sharp\Assignments\Threadstart handson\Threadstart handson\obj\Debug\Threadstart handson.csproj.CoreCompileInputs.cache
-C:\Zensar\Dotnet Training\C sharp\Assignments\Threadstart handson\Threadstart handson\bin\Debug\Threadstart handson.exe.config
-C:\Zensar\Dotnet Training\C sharp\Assignments\Threadstart handson\Threadstart handson\bin\Debug\Threadstart handson.exe
-C:\Zensar\Dotnet Training\C sharp\Assignments\Threadstart handson\Threadstart handson\bin\Debug\Threadstart handson.pdb
-C:\Zensar\Dotnet Training\C sharp\Assignments\Threadstart handson\Threadstart handson\obj\Debug\Threadstart handson.exe
-C:\Zensar\Dotnet Training\C sharp\Assignments\Threadstart handson\Threadstart handson\obj\Debug\Threadstart handson.pdb
