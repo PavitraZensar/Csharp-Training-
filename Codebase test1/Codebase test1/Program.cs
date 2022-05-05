@@ -6,19 +6,18 @@ using System.Threading.Tasks;
 
 namespace Codebase_test1
 {
+    internal class Program
+    {`
     public class passenger
     {
-        public string Name { get; set; };
-        public int Age { get; set; };
-
-        Tickets no_of_tickets { get; set; };
-        public Passenger(string Name, int Age,)
+       string name;
+        string Dateoftravel;
+        int age;
+        passenger(string name, string Dateoftravel, int age;)
         {
-            Name = Name;
-            Age = Age;
-
-            no_of_tickets = new tickets;
-        }
+            this.name=name;
+            this.Dateoftravel=dateoftravel;
+            this.age=age;
         public void TicketBooking(int tickets)
         {
             no_of_tickets.Tickets = tickets;   
@@ -81,30 +80,3 @@ namespace Codebase_test1
 
 
 
-
-
-    /* class passenger
-    {
-        string Name;
-        int Age;
-        Dateof Date of travel;
-        int no_of_tickets;
-
-
-
-        int car_no;
-        string car_name;
-        String car_type;
-        readonly double cost = 500000;
-        public Car(int car_no; string car_name; String car_type;)
-            {
-               this.car_no = car_no;
-               this.car_name = car_name;
-               this.car_type = car_tpe;
-               this.cost = Cost;
-               Console.WriteLine("the car_no is {car_no}, car_name is {car_name}, car_type is {car_type}, car_cost is {car_cost}");
-            }
-
-}
-    Name, Age,DateofTravel,no_of_tickets
-}*/
