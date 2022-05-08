@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace Assignment5
 {
-<<<<<<< HEAD
+
 
     public class WithdrawnException : ApplicationException
     {
         public WithdrawnException(string msg) : base(msg)
-=======
+
    public class WithdrawnException : ApplicationException
     {
         public WithdrawnException(string message) : base(message)
->>>>>>> 622dc9dac7cb921258954a04fcab06d7cb77d52e
+
         {
 
         }
@@ -77,7 +77,7 @@ namespace Assignment5
     }
     internal class Program
     {
-=======
+
     {
         
         int Balance;
@@ -134,7 +134,7 @@ namespace Assignment5
     }
     internal class Program
     {
->>>>>>> 622dc9dac7cb921258954a04fcab06d7cb77d52e
+
         static void Main(string[] args)
         {
             Bank bank = new Bank();
@@ -157,9 +157,9 @@ namespace Assignment5
     }
 }
 
-<<<<<<< HEAD
 
-/* internal class Program
+
+ internal class Program
  {
          class Bank
          {
@@ -229,7 +229,7 @@ namespace Assignment5
              Console.ReadLine();
          }
      }
- }*/
+ }
 
-=======
->>>>>>> 622dc9dac7cb921258954a04fcab06d7cb77d52e
+
+
