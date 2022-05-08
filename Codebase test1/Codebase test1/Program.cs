@@ -6,54 +6,48 @@ using System.Threading.Tasks;
 
 namespace Codebase_test1
 {
-    public class passenger
+    public class TicketsException : Exception
     {
-        public string Name { get; set; };
-        public int Age { get; set; };
-
-        Tickets no_of_tickets { get; set; };
-        public Passenger(string Name, int Age,)
+        public TicketsException(string message) : base(message)
         {
-            Name = Name;
-            Age = Age;
-
-            no_of_tickets = new tickets;
         }
-        public void TicketBooking(int tickets)
+    }
+    class Passenger
+    {
+        string name;
+        string DateofTravel;
+        int Age;
+        Passenger(string name, string DateofTravel, int Age)
         {
-            no_of_tickets.Tickets = tickets;   
-            try
-            {
-
-
-                if (no_of_tickets > 5)
-                {
-                    Console.WriteLine("TicketException Cannot print more than 5tickets");
-                }
-                else
-                {
-                    Console.WriteLine("Tickets Booked Successfully");
-                }
-            }
-            catch (Exception)
-            {
-                Console.WriteLine("Enter number of tickets in number not in words inputmissmatch exception");
-            }
-
-
-
+            this.name = name;
+            this.DateofTravel = DateofTravel;
+            this.Age = Age;
         }
-        static void Main(String[] args)
+
+        public void TicketBooking(int no_of_tickets)
         {
-            passenger passenger = new passenger("Seeta", 21);
-            Console.WriteLine("Enter the number of tuckets to be booked");
-            passenger.TicketBooking(int.Parse(Console.ReadLine());
-            Console.ReadKey();
+            if (no_of_tickets > 5)
+            {
+                throw (new TicketsException("No more than 5 tickets"));
+            }
+            else
+            {
+                Console.WriteLine("Tickets successfully: {0}", no_of_tickets);
+
+            }
+        }
+
+        public static void Main()
+        {
+            int no_tickets;
+            no_tickets = Convert.ToInt32(Console.Read());
+            Console.WriteLine(no_tickets);
+            Passenger pass = new Passenger("Seeta", "5-05-2022", 21);
+            pass.TicketBooking(no_tickets);
 
         }
     }
 }
-        
 
 
 
@@ -61,50 +55,81 @@ namespace Codebase_test1
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* class passenger
+ public class TicketsException : Exception
     {
-        string Name;
-        int Age;
-        Dateof Date of travel;
-        int no_of_tickets;
+        public TicketsException(string message) : base(message)
+        {
+        }
+        public class passenger
+        {
+            string name;
+            string Dateoftravel;
+            int age;
+            passenger(string name, string Dateoftravel, int age)
+        {
+            this.name=name;
+            this.Dateoftravel=Dateoftravel;
+            this.age=age;
+        
+        public void TicketBooking(int no_of_tickets)
+        {
+                    try
+                    {
+
+
+                        if (no_of_tickets > 5)
+                        {
+                            throw (newTicketException("Cannot print more than 5tickets");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Tickets Booked Successfully is {0}", no_of_tickets);
+                        }
+                    }
+
+                    catch (Exception)
+                    {
+                        Console.WriteLine("inputmissmatch exception");
+                    }
 
 
 
-        int car_no;
-        string car_name;
-        String car_type;
-        readonly double cost = 500000;
-        public Car(int car_no; string car_name; String car_type;)
-            {
-               this.car_no = car_no;
-               this.car_name = car_name;
-               this.car_type = car_tpe;
-               this.cost = Cost;
-               Console.WriteLine("the car_no is {car_no}, car_name is {car_name}, car_type is {car_type}, car_cost is {car_cost}");
             }
+            static void Main(String[] args)
+            {
+                int no_tickets;
+                no_tickets = Convert.ToInt32(Console.Read());
+                Console.WriteLine(no_tickets);
+                passenger passenger = new passenger("Seeta", 21, 12/12/2002);
+                pass.TicketBooking(no_tickets);
+            }
+        }
+    }
 
-}
-    Name, Age,DateofTravel,no_of_tickets
-}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
