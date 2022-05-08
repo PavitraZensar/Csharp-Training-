@@ -6,90 +6,6 @@ using System.Threading.Tasks;
 
 namespace Codebase_test1
 {
-<<<<<<< HEAD
-=======
-   
->>>>>>> 622dc9dac7cb921258954a04fcab06d7cb77d52e
-    public class TicketsException : Exception
-    {
-        public TicketsException(string message) : base(message)
-        {
-        }
-<<<<<<< HEAD
-    }
-    class Passenger
-    {
-        string name;
-        string DateofTravel;
-        int Age;
-        Passenger(string name, string DateofTravel, int Age)
-        {
-            this.name = name;
-            this.DateofTravel = DateofTravel;
-            this.Age = Age;
-        }
-=======
-    public class passenger
-    {
-       string name;
-        string Dateoftravel;
-        int age;
-        passenger(string name, string Dateoftravel, int age;)
-        {
-            this.name=name;
-            this.Dateoftravel=dateoftravel;
-            this.age=age;
-        public void TicketBooking(int no_of_tickets)
-        {
-             
-            try
-            {
-
->>>>>>> 622dc9dac7cb921258954a04fcab06d7cb77d52e
-
-        public void TicketBooking(int no_of_tickets)
-        {
-            if (no_of_tickets > 5)
-            {
-<<<<<<< HEAD
-                throw (new TicketsException("No more than 5 tickets"));
-=======
-                Console.WriteLine("inputmissmatch exception");
->>>>>>> 622dc9dac7cb921258954a04fcab06d7cb77d52e
-            }
-            else
-            {
-                Console.WriteLine("Tickets successfully: {0}", no_of_tickets);
-
-            }
-        }
-
-        public static void Main()
-        {
-<<<<<<< HEAD
-            int no_tickets;
-            no_tickets = Convert.ToInt32(Console.Read());
-            Console.WriteLine(no_tickets);
-            Passenger pass = new Passenger("Seeta", "5-05-2022", 21);
-            pass.TicketBooking(no_tickets);
-
-=======
-            int no_of_tickets;
-            no_tickets = Convert.ToInt32(Console.Read());
-            Console.WriteLine(no_of_tickets);
-            passenger passenger = new passenger("Seeta", 21);
-            pass.TicketBooking(no_of_tickets);
->>>>>>> 622dc9dac7cb921258954a04fcab06d7cb77d52e
-        }
-    }
-}
-
-
-
-
-
-
-
  public class TicketsException : Exception
     {
         public TicketsException(string message) : base(message)
@@ -162,12 +78,11 @@ namespace Codebase_test1
 
 
 
-<<<<<<< HEAD
 
 
 
 
 
 
-=======
->>>>>>> 622dc9dac7cb921258954a04fcab06d7cb77d52e
+
+
