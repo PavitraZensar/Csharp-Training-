@@ -6,15 +6,22 @@ using System.Threading.Tasks;
 
 namespace Assignment5
 {
+<<<<<<< HEAD
 
     public class WithdrawnException : ApplicationException
     {
         public WithdrawnException(string msg) : base(msg)
+=======
+   public class WithdrawnException : ApplicationException
+    {
+        public WithdrawnException(string message) : base(message)
+>>>>>>> 622dc9dac7cb921258954a04fcab06d7cb77d52e
         {
 
         }
     }
     public class Bank
+<<<<<<< HEAD
     {
         int Amount = 35000;
         int Balance;
@@ -70,6 +77,64 @@ namespace Assignment5
     }
     internal class Program
     {
+=======
+    {
+        
+        int Balance;
+	int Amount = 35000;
+        string Acc_Name;
+        string Acc_Number;
+
+        public Bank()
+        {
+            Console.WriteLine("Enter the Account Number : ");
+            Acc_Number = Console.ReadLine();
+            Console.WriteLine("Enter the Account holder Name :");
+            Acc_Name = Console.ReadLine();
+
+            Console.WriteLine($"The Account details is : Account Number {Acc_Number}, Acount Name {Acc_Name}, Balance is {Balance}");
+
+        }
+
+
+        public void DepositAmount()
+        {
+            Console.WriteLine("Enter the Amount you want deposit : ");
+            int DepAmount = Convert.ToInt32(Console.ReadLine());
+
+            if (DepAmount == 0)
+            {
+                Console.WriteLine("Minimum deposit amount is 500 ");
+
+            }
+            else
+            {
+                Balance = Amount + DepAmount;
+                Console.WriteLine("Your Account Balance after deposited amount : " + Balance);
+            }
+        }
+
+        public void Amount_Withdrawn()
+        {
+
+            Console.WriteLine("Enter the Amount you want to withdraw : ");
+            int Withdrawn_Amount = Convert.ToInt32(Console.ReadLine());
+
+
+            if (Withdrawn_Amount > Balance)
+            {
+                throw (new WithdrawnException("Insufficent balance"));
+            }
+            else
+            {
+                Balance = Balance - Withdrawn_Amount;
+                Console.WriteLine("Your Account Balance after withdrawing the amount is :" + Balance);
+            }
+        }
+    }
+    internal class Program
+    {
+>>>>>>> 622dc9dac7cb921258954a04fcab06d7cb77d52e
         static void Main(string[] args)
         {
             Bank bank = new Bank();
@@ -92,6 +157,7 @@ namespace Assignment5
     }
 }
 
+<<<<<<< HEAD
 
 /* internal class Program
  {
@@ -165,3 +231,5 @@ namespace Assignment5
      }
  }*/
 
+=======
+>>>>>>> 622dc9dac7cb921258954a04fcab06d7cb77d52e
