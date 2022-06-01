@@ -1,8 +1,0 @@
-C:\Zensar\Dotnet Training\C sharp\Assignments\Eventclass\Eventclass\obj\Debug\Eventclass.csproj.AssemblyReference.cache
-C:\Zensar\Dotnet Training\C sharp\Assignments\Eventclass\Eventclass\obj\Debug\Eventclass.csproj.SuggestedBindingRedirects.cache
-C:\Zensar\Dotnet Training\C sharp\Assignments\Eventclass\Eventclass\obj\Debug\Eventclass.csproj.CoreCompileInputs.cache
-C:\Zensar\Dotnet Training\C sharp\Assignments\Eventclass\Eventclass\bin\Debug\Eventclass.exe.config
-C:\Zensar\Dotnet Training\C sharp\Assignments\Eventclass\Eventclass\bin\Debug\Eventclass.exe
-C:\Zensar\Dotnet Training\C sharp\Assignments\Eventclass\Eventclass\bin\Debug\Eventclass.pdb
-C:\Zensar\Dotnet Training\C sharp\Assignments\Eventclass\Eventclass\obj\Debug\Eventclass.exe
-C:\Zensar\Dotnet Training\C sharp\Assignments\Eventclass\Eventclass\obj\Debug\Eventclass.pdb
